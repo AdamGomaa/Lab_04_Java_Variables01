@@ -5,7 +5,7 @@ public class Main
     public static void main(String[] args) {
         int intOperandA = 2;
         int intOperandB =54;
-        int intSum;
+        int intSum = 50;
         int intProduct = 8;
         int intDifference = 10;
         int intQuotient = 12;
@@ -19,6 +19,13 @@ public class Main
 
         intSum = intOperandA + intOperandB; // Assignment that uses the arithmentic operator +
         System.out.println("The sum using ints of " + intOperandA + " " + intOperandB + " is " + intSum); // Output statement
+        intProduct = intOperandA - intOperandB;
+        System.out.println("The subtraction using ints of " + intOperandA + " " + intOperandB + " is " + intProduct);
+        intDifference = intOperandA * intOperandB;
+        System.out.println("The multiplication using ints of " + intOperandA + " " + intOperandB + " is " + intDifference);
+        intModulo = intOperandA / intOperandB;
+        System.out.println("The division using ints of " + intOperandA + " " + intOperandB + " is " + intModulo);
+
 
 
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
